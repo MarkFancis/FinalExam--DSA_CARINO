@@ -1,0 +1,17 @@
+1.Array Declaration:
+The array products is declared with the const keyword, making it immutable (the reference cannot change, but its contents can be modified).
+
+2.Arrow Function:
+The function sortByPrice is declared using an arrow function syntax. It accepts an array (arr) as an argument and sorts it in ascending order.
+
+3.Sorting Mechanism:
+The Array.prototype.sort() method is used with a comparison function (a, b):
+If a - b is negative, a is sorted before b.
+If a - b is positive, b is sorted before a.
+If a - b is 0, the order remains unchanged.
+
+4.Function Call:
+The sortByPrice function is invoked with products as the argument, and the result is logged to the console.
+
+5.Export:
+The function sortByPrice is exported as a module for external use, making it reusable in other files.

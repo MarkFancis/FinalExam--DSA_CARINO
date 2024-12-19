@@ -1,0 +1,15 @@
+1.Array Declaration:
+The users array is defined with the const keyword to store a list of usernames. The const keyword ensures the reference to the array cannot be reassigned.
+
+2.Arrow Function:
+getUserByID is declared using an arrow function, which is concise and suitable for simple operations like accessing an array element by index.
+Parameters:
+arr: Represents the array of usernames.
+index: Represents the position of the desired user in the array.
+The function uses arr[index] to retrieve the element at the specified index.
+
+3.Function Call:
+The getUserByID function is invoked with users as the array and 2 as the index. It returns "Charlie", the third user in the array (indexing starts at 0).
+
+4.Export:
+module.exports is used to export the getUserByID function, allowing it to be reused in other files.

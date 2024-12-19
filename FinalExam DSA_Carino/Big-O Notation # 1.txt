@@ -1,0 +1,24 @@
+1.Constants Declaration:
+The array sortedInventory is defined using the const keyword, indicating that it won't be reassigned.
+binarySearch is defined as a function that takes two arguments: arr (the array to search) and target (the value to find).
+
+2.Initialization:
+Variables left and right are initialized to represent the bounds of the search space:
+left starts at 0 (beginning of the array).
+right is intended to start at arr.length - 1 but contains a syntax error (missing =).
+
+3.Loop Logic:
+The while loop iterates as long as the left index is less than or equal to the right index, narrowing down the search space.
+mid is calculated using the formula Math.floor((left + right) / 2).
+
+4.Conditional Checks:
+If arr[mid] equals the target, the function returns a success message.
+If arr[mid] is less than the target, left is updated to mid + 1.
+Otherwise, right is updated to mid - 1.
+
+5.Return Statements:
+If the target is found, it returns a success message.
+If the loop exits without finding the target, it returns a "not found" message.
+
+6.Export:
+The function binarySearch is exported as a module for use in other files.
